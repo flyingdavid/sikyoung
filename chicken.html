@@ -3,85 +3,110 @@
      <head>
           <meta charset="utf-8">
           <link rel="stylesheet" type="text/css" href="chicken.css">
-          <title>Chicken</title>
+          <title>Chicken Poll</title>
      </head>
      <body>
+          <form action="" method="post">
           <h1>치킨투표</h1>
-          <form  action="" method="post">
+          <h3>방번호</h3>
+          <div class="roomnum"><input type="number" name="room">호</div>
 
-               <div>방번호</td>
-               <td class="column"<input type="number" name="room"></td>
+          <h3>음료수</h3>
+
+               <div class="drink">
+               <table border="1">
+               <tr>
+                    <td>콜라</td><td><input type="radio" name="drinkc" value="콜라"></td>
+               </tr>
+               <tr>
+                    <td>사이다</td><td><input type="radio" name="drinkc" value="사이다"></td>
+               </tr>
+               </table>
+               </div>
+
+          <h3>치킨</h3>
+          <div class="chicken">
+          <table border="1">
+               <tr>
+                    <td>후라이드</td>
+                    <td>
+                         0:<input type="radio" name="후라이드" value="0">
+                         1:<input type="radio" name="후라이드" value="1">
+                         2:<input type="radio" name="후라이드" value="2">
+                         3:<input type="radio" name="후라이드" value="3">
+                    </td>
                </tr>
 
-          <h2>음료수</h2>
-          <table>
-          <tr>
-               <td>콜라 <input type="radio" name="콜라" value="콜라"></td>
-          </tr>
-          <tr>
-               <td>사이다<input type="radio" name="사이다" value="사이다"><td>
-          </tr>
-          </table>
-
-          <h2>치킨</h2>
-          <table>
-               <>
-               <td>후라이드</td>
-               <td>
-                    0:<input type="radio" name="후라이드" value="0">
-                    1:<input type="radio" name="후라이드" value="1">
-                    2:<input type="radio" name="후라이드" value="2">
-                    3:<input type="radio" name="후라이드" value="3">
-               </td>
-               </tr>
                <tr>
                <td>양념</td>
                <td>
-               <p>
                     0:<input type="radio" name="양념" value="0">
                     1:<input type="radio" name="양념" value="1">
                     2:<input type="radio" name="양념" value="2">
                     3:<input type="radio" name="양념" value="3">
-               </p>
                </td>
                </tr>
-               <h3>파닭</h3>
-               <p>
+
+               <tr>
+               <td>파닭</td>
+               <td>
                     0:<input type="radio" name="파닭" value="0">
                     1:<input type="radio" name="파닭" value="1">
                     2:<input type="radio" name="파닭" value="2">
                     3:<input type="radio" name="파닭" value="3">
-               </p>
-               <h3>마늘</h3>
-               <p>
+               </td>
+               </tr>
+
+               <tr>
+               <td>마늘</td>
+               <td>
                     0:<input type="radio" name="마늘" value="0">
                     1:<input type="radio" name="마늘" value="1">
                     2:<input type="radio" name="마늘" value="2">
                     3:<input type="radio" name="마늘" value="3">
-               </p>
-               <h3>크리미언</h3>
-               <p>
+               </td>
+               </tr>
+
+               <tr>
+               <td>크리미언</td>
+               <td>
                     0:<input type="radio" name="크리미언" value="0">
                     1:<input type="radio" name="크리미언" value="1">
                     2:<input type="radio" name="크리미언" value="2">
                     3:<input type="radio" name="크리미언" value="3">
-               </p>
-               <h3>핫블링</h3>
-               <p>
+               </td>
+               </tr>
+
+               <tr>
+               <td>핫블링</td>
+               <td>
                     0:<input type="radio" name="핫블링" value="0">
                     1:<input type="radio" name="핫블링" value="1">
                     2:<input type="radio" name="핫블링" value="2">
                     3:<input type="radio" name="핫블링" value="3">
-               </p>
-               <h3>크핫</h3>
-               <p>
+               </td>
+               </tr>
+
+               <tr>
+               <td>크핫</td>
+               <td>
                     0:<input type="radio" name="크핫" value="0">
                     1:<input type="radio" name="크핫" value="1">
                     2:<input type="radio" name="크핫" value="2">
                     3:<input type="radio" name="크핫" value="3">
-               </p>
+               </td>
+               </tr>
+
                </table>
-               <p><input type="submit"></p>
+               <br>
+               </div>
+               <div class="menu">
+               <input type="button" value="치킨메뉴참고" onclick="window.open('https://nenechicken.com/17_new/sub_menu01.asp')">
+               </div>
+               <div class="reset">
+               <input type="reset" name="초기화" value="초기화">
+               </div>
+               <div><input type="submit" value="CHICK_IN"></div>
           </form>
      </body>
 </html>
