@@ -1,0 +1,16 @@
+*
+{
+     box-sizing: border-box;
+     vertical-align: middle;
+     text-align: center;
+     margin-left:auto;
+     margin-right: auto;
+}
+.color
+{
+     background-color: #A9D0F5;
+}
+.table
+{
+     border-collapse :collapse;
+}
