@@ -1,10 +1,3 @@
-.information
-{
-     text-align: center;
-     line-height: 1.5;
-     border-style: double;
- }
-
 *
 {
      box-sizing: border-box;
@@ -25,7 +18,7 @@ body
 }
 
 html {
-	background-color: #c8ed8c;
+	background-color: #57aeec; /*#c8ed8c*/
 }
 
 table {
@@ -42,6 +35,13 @@ table {
 	margin-right: 2%;
 }
 
+.information
+{
+     text-align: center;
+     line-height: 1.5;
+     border-style: double;
+ }
+
 .box {
 	border-style: double;
 	margin-left: 30%;
@@ -52,10 +52,23 @@ table {
 	line-height: 1.5;
 }
 
-th {
+th
+{
     padding: 10px;
+    font-weight: bold;
 }
 
-td {
+td
+{
      padding: 10px;
+     vertical-align: top;
+ }
+
+tr:nth-of-type(odd)
+{
+     background-color:#c5e8f4;
+}
+tr:nth-of-type(even)
+{
+     background-color:#F6FBFD;
 }
