@@ -4,7 +4,6 @@
      text-align: center;
      margin-left:auto;
      margin-right: auto;
-     border-color: black;
      font-family: "Open Sans", arial, "Apple SD Gothic Neo", "Noto Sans Korean", 본고딕, "KoPubDotum Medium", 나눔바른고딕, 나눔고딕, NanumGothic, 맑은고딕, "Malgun Gothic", sans-serif;
   }
 }
@@ -23,7 +22,7 @@ body
 }
 
 html {
-     background-color: #f9ceaf;
+     background-color: #57aeec;
 }
 
 .box {
