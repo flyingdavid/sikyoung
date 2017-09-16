@@ -1,0 +1,61 @@
+.information
+{
+     text-align: center;
+     line-height: 1.5;
+     border-style: double;
+ }
+
+*
+{
+     box-sizing: border-box;
+     vertical-align: middle;
+     text-align: center;
+     margin-left:auto;
+     margin-right: auto;
+     font-family: "Open Sans", arial, "Apple SD Gothic Neo", "Noto Sans Korean", 본고딕,
+     "KoPubDotum Medium", 나눔바른고딕, 나눔고딕, NanumGothic, 맑은고딕, "Malgun Gothic", sans-serif;
+}
+
+body
+{
+     margin-left: 20%;
+     margin-right: 20%;
+     border-style: groove;
+     background-color: white;
+}
+
+html {
+	background-color: #c8ed8c;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.words {
+	border-style: double;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.box {
+	border-style: double;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 110%;
+	line-height: 1.5;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+     padding: 10px;
+}

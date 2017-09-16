@@ -1,0 +1,32 @@
+* {
+     box-sizing: border-box;
+     vertical-align: middle;
+     text-align: center;
+     margin-left:auto;
+     margin-right: auto;
+     border-color: black;
+     font-family: "Open Sans", arial, "Apple SD Gothic Neo", "Noto Sans Korean", 본고딕, "KoPubDotum Medium", 나눔바른고딕, 나눔고딕, NanumGothic, 맑은고딕, "Malgun Gothic", sans-serif;
+  }
+}
+
+.table
+{
+     border-collapse :collapse;
+}
+
+body
+{
+     margin-left: 20%;
+     margin-right: 20%;
+     border-style: groove;
+     background-color: white;
+}
+
+html {
+     background-color: #f9ceaf;
+}
+
+.box {
+     font-size: 110%;
+     margin-top: 6%;
+}
