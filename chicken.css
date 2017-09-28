@@ -9,6 +9,10 @@
      "KoPubDotum Medium", 나눔바른고딕, 나눔고딕, NanumGothic, 맑은고딕, "Malgun Gothic", sans-serif;
 }
 
+html {
+     background-color: #074275;
+}
+
 body
 {
      margin-left: 20%;
